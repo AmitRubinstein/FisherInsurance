@@ -4,7 +4,9 @@ public class LifeController : Controller
 {
     public IActionResult Index()
     {
-        return Ok("Index page for Life");
+        //return Ok("Index page for Life");
+
+        return View();
     }
     
     public IActionResult Quote()

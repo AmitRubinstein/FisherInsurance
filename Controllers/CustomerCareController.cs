@@ -5,7 +5,9 @@ public class CustomerCareController : Controller
 {
     public IActionResult Index()
     {
-        return Ok("Index page for customer care");
+        //return Ok("Index page for customer care");
+
+        return View();
     }
 
     [Route("fileclaim")]
